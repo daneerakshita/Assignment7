@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>DEETS</title>
+</head>
+
+<style>
+    table, th, td {
+        background-color: bisque;
+        border: 1px solid black; 
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+    }
+    .heading{
+        font-size: 3em; 
+        font-style: oblique;
+        align-content: center;
+        background-color: chocolate;
+        letter-spacing: -2px;
+        border-bottom: 2px solid black;
+    }
+</style>
+
+<body>
+    
+
+    <h1 class="heading">Student Details</h1>
+ 
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Roll Number</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td id="printName"></td>
+            <td id="printClass"></td>
+            <td id="printRoll"></td>
+            <td id="printMarks"></td>
+        </tr>
+    </table>
+
+    <p id="op"></p>
+
+    <p>Error Testing</p>
+    <input id="checkError" type="text" value=""/>
+    <button type="submit" onclick="return checkError()">Check</button>
+
+</body>
+<script src="myscript.js"></script>
+
+</html>
+
